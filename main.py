@@ -3,6 +3,7 @@ import png
 import config
 from discord.ext import commands
 import datetime
+from datetime import datetime
 from myserver import server_on
 import os
 
