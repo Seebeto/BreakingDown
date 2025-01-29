@@ -2,7 +2,6 @@ const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const { CHANNEL_ID1, CHANNEL_ID2, CHANNEL_ID3, ICONURL1 } = require('./config.js');
 const keep_alive = require('./keep_alive.js')
 require('dotenv').config();
-const TOKEN = process.env.TOKEN;
 
 const client = new Client({
   intents: [
@@ -108,4 +107,4 @@ client.on('voiceStateUpdate', (oldState, newState) => {
   }
 });
 
-client.login(TOKEN);
+client.login(process.env.TOKEN);
