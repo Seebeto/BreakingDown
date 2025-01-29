@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "luxon": "^3.5.0",
+    "openai": "^4.80.1"
+  },
+  "name": "botdev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
