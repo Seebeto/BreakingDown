@@ -1,5 +1,7 @@
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const { CHANNEL_ID1, CHANNEL_ID2, CHANNEL_ID3, ICONURL1 } = require('./config.js');
+require('dotenv').config();
+const TOKEN = process.env.TOKEN;
 
 const client = new Client({
   intents: [
