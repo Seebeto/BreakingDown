@@ -1,7 +1,6 @@
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const { CHANNEL_ID1, CHANNEL_ID2, CHANNEL_ID3, ICONURL1 } = require('./config.js');
 const keep_alive = require('./keep_alive.js')
-require('dotenv').config();
 
 const client = new Client({
   intents: [
