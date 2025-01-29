@@ -1,5 +1,5 @@
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
-const { TOKEN, CHANNEL_ID1, CHANNEL_ID2, CHANNEL_ID3, ICONURL1 } = require('./config.js');
+const { CHANNEL_ID1, CHANNEL_ID2, CHANNEL_ID3, ICONURL1 } = require('./config.js');
 
 const client = new Client({
   intents: [
